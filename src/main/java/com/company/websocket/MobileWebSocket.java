@@ -5,7 +5,6 @@ import jakarta.websocket.server.ServerEndpoint;
 import jakarta.inject.Singleton;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
-//My new changes is here by chiggi boy bodmosh
 @ServerEndpoint("/ws/mobiles")
 @Singleton
 public class MobileWebSocket {
